@@ -1,2 +1,27 @@
-
-
+body {
+  font-family: "Roboto", sans-serif;
+}
+.weather-app {
+  border: 1px solid #000;
+  display: block;
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 20px;
+}
+.city {
+  width: 80%;
+  padding: 15px 0;
+  border: none;
+  background-color: #eee;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.submit {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #eee;
+  font-size: 20px;
+  margin-left: 10px;
+}
