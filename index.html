@@ -14,30 +14,32 @@
     <title>Weather-App</title>
   </head>
   <body>
-    <main>
-      <div class="weather-app">
-        <form id="search-form">
-          <input class="city" id="city" placeholder="Enter your city" />
-          <input class="submit" type="submit" value="Search" />
-        </form>
+    <div class="weather-app">
+      <form id="search-form">
+        <input class="city" id="city" placeholder="Enter your city" />
+        <input class="submit" type="submit" value="Search" />
+      </form>
 
-        <div class="weather-info">
-          <h1><span class="city-name" id="city-name">Paris</span></h1>
-          <span id="date">Tuesday, 18:23,</span>
-          <span id="description"> light rain</span><br />
-          <span id="humidity">Humidity:86%</span>
-          <span id="wind-speed">Wind Speed: 5.6km/h</span>
+      <div class="weather">
+        <div>
+          <h1 class="city" id="city">Paris</h1>
+          <p class="weather-details">
+            <span id="date"></span>,
+            <span id="description">moderate rain</span> <br />
+            Humidity: <strong id="humidity">87%</strong>, Wind:
+            <strong id="wind">7.2km/h</strong>
+          </p>
         </div>
-        <div class="temperature">
-          <img src="#" class="icon" />
-          <span id="temperature">12</span>
-          <span id="unit">℃</span>
+        <div class="current-temperature">
+          <span class="icon" id="icon">☀️</span>
+          <span class="temperature" id="temperature">24</span>
+          <span class="unit">°C</span>
         </div>
-        <footer>
-          Coded by <a href="#">Nomqhele Mhlanga</a> source code hosted in
-          <a href="#">Github</a> app available at <a href="#">Netlify</a>
-        </footer>
       </div>
-    </main>
+      <footer>
+        Coded by <a href="#">Nomqhele Mhlanga</a> source code hosted in
+        <a href="#">Github</a> app available at <a href="#">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
