@@ -16,7 +16,7 @@
   </head>
   <body>
     <div class="weather-app">
-      <form id="search-form">
+      <form id="searchForm">
         <input class="city" id="city" placeholder="Enter your city" />
         <input class="submit" type="submit" value="Search" />
       </form>
@@ -32,14 +32,21 @@
           </p>
         </div>
         <div class="current-temperature">
-          <span class="icon" id="icon">☀️</span>
+          <img
+            class="icon"
+            id="icon"
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+          />
           <span class="temperature" id="temperature">24</span>
           <span class="unit">°C</span>
         </div>
       </div>
       <footer>
-        Coded by <a href="#">Nomqhele Mhlanga,</a> source code hosted in
-        <a href="#">Github,</a> app available at <a href="#">Netlify</a>
+        Coded by
+        <a href="https://github.com/mqhelem">Nomqhele Mhlanga,</a> source code
+        hosted in
+        <a href="https://github.com/mqhelem/Vanilla-Weather-App">Github,</a> app
+        available at <a href="#">Netlify</a>
       </footer>
     </div>
     <script src="index.js"></script>
