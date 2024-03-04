@@ -18,3 +18,5 @@ function displayWeather(response) {
   let wind = document.querySelector("#wind");
   wind.innerHTML = response.data.wind.speed;
 }
+console.log(humidity);
+console.group(wind);
