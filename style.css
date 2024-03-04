@@ -30,7 +30,6 @@ body {
   border-radius: 10px;
   font-size: 20px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #cfd9df;
 }
 strong {
   color: #ef5f9a;
@@ -38,6 +37,7 @@ strong {
 .weather {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 .temperature {
   font-size: 80px;
@@ -62,4 +62,5 @@ img {
 }
 footer {
   border-top: 1px solid #cfd9df;
+  padding-top: 20px;
 }
